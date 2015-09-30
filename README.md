@@ -1,7 +1,7 @@
 # mini-projects-part-1
 interactive python1 mini projects
 
-CodeSkulptor
+Run the codes on CodeSkulptor
 http://www.codeskulptor.org/  
   
 An Introduction to Interactive Programming in Python (Part 1)  
