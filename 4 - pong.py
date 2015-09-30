@@ -75,7 +75,7 @@ def draw(canvas):
                 ball_vel[0] += ball_vel[0]/10
                 ball_vel[1] += ball_vel[1]/10
             else:
-                score1 += 1
+                score2 += 1
                 spawn_ball(RIGHT)
     elif ball_pos[0] > WIDTH - BALL_RADIUS - PAD_WIDTH:
             if ball_pos[1] in range(paddle2_pos-HALF_PAD_HEIGHT, paddle2_pos+HALF_PAD_HEIGHT):
@@ -83,7 +83,7 @@ def draw(canvas):
                 ball_vel[0] += ball_vel[0]/10
                 ball_vel[1] += ball_vel[1]/10
             else:
-                score2 += 1
+                score1 += 1
                 spawn_ball(LEFT)
     
     # draw ball
